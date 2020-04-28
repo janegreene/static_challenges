@@ -29,6 +29,10 @@ li a:hover {
   background-color:	#FF0000;
 }
 
+img{
+  padding: 10px;
+}
+
 h1 {
   font-family: verdana;
   font-size: 100%;
@@ -40,8 +44,21 @@ h2 {
   font-size: 100%;
   font-weight: bold;
 }
+aside {
+  display: block;
+  float: right;
+  width: 30%;
+  padding: 2px;
+}
+article {
+  display: block;
+  float: left;
+  width: 70%;
+  padding: 2px;
+}
 
 footer {
+  clear: both;
   color: white;
   font-family: verdana;
   font-size: 50%;
