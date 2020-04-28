@@ -15,9 +15,31 @@ li a {
   color: white;
   text-align: center;
   padding: 16px;
-  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 li a:hover {
   background-color: #111111;
+}
+#login {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:	#FF0000;
+}
+
+h1 {
+  font-family: verdana;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+footer {
+  color: white;
+  font-family: verdana;
+  font-size: 50%;
+  background-color:	#333333;
+  text-align: center;
+  padding: 10px;
 }
